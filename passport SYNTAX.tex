@@ -1,0 +1,41 @@
+################### grant type ##############
+
+#### authorization_code
+
+    uri: /oauth/token
+
+    grant_type: authorization_code
+    client_id: the one created by Passport
+    client_secret
+    redirect_uri
+    code: The given Authorization Code
+
+#### refresh_token
+
+    uri: /oauth/token
+
+    grant_type: refresh_token
+    client_id: the one created by Passport
+    client_secret
+    refresh_token
+    scope
+
+#### password
+
+    uri: /oauth/token
+
+    grant_type: password
+    client_id:
+    client_secret
+    username
+    password
+    scope
+
+#### client_credentials
+
+    uri: /oauth/token
+
+    grant_type: client_credentials,
+    client_id: client-id,
+    client_secret: client-secret,
+    scope: your-scope,
